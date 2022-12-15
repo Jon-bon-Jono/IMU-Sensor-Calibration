@@ -18,9 +18,12 @@ Samples obtained by rotating a LSM9DS1 magnetometer while exposed to ferromagnet
 
 XY axis             |  YZ axis             | XZ axis             
 :-------------------------:|:-------------------------:|:-------------------------:
-![](https://raw.githubusercontent.com/Jon-bon-Jono/Jon-bon-Jono.github.io/main/src/images/c%2B%2B_icon.PNG)  | ![](https://raw.githubusercontent.com/Jon-bon-Jono/Jon-bon-Jono.github.io/main/src/images/jupyter_logo.PNG)  | ![](https://raw.githubusercontent.com/Jon-bon-Jono/Jon-bon-Jono.github.io/main/src/images/jupyter_logo.PNG)
+![](https://raw.githubusercontent.com/Jon-bon-Jono/IMU-Sensor-Calibration/main/calibration_data/mag/freehand_battery_2/freehand_battery_2_XY.png)  | ![](https://raw.githubusercontent.com/Jon-bon-Jono/IMU-Sensor-Calibration/main/calibration_data/mag/freehand_battery_2/freehand_battery_2_YZ.png)  | ![](https://raw.githubusercontent.com/Jon-bon-Jono/IMU-Sensor-Calibration/main/calibration_data/mag/freehand_battery_2/freehand_battery_2_XZ.png)
 
 Results after applying the max-min calibration method:
+ 
+ 
+  `py do_calibration.py "calibration_data/mag/freehand_battery_2/freehand_battery_2.csv" 'mm' '-' 'm'`
 
 XY axis             |  YZ axis             | XZ axis             
 :-------------------------:|:-------------------------:|:-------------------------:
@@ -28,6 +31,9 @@ XY axis             |  YZ axis             | XZ axis
 
 
 Results after applying the ellipsoidal calibration method:
+
+
+  `py do_calibration.py "calibration_data/mag/freehand_battery_2/freehand_battery_2.csv" 'e' '-' 'm'`
 
 XY axis             |  YZ axis             | XZ axis             
 :-------------------------:|:-------------------------:|:-------------------------:
