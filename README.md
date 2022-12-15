@@ -16,7 +16,7 @@ Unlike the max-min calibration method, the ellipsoid fitting method is able to p
 
 Samples obtained by rotating a LSM9DS1 magnetometer while exposed to ferromagnetic interferrence from a portable battery pack:
 
-XY axis             |  YZ axis             | XZ axis             
+XY axes             |  YZ axes             | XZ axes             
 :-------------------------:|:-------------------------:|:-------------------------:
 ![](https://raw.githubusercontent.com/Jon-bon-Jono/IMU-Sensor-Calibration/main/calibration_data/mag/freehand_battery_1/freehand_battery_1_XY.png)  | ![](https://raw.githubusercontent.com/Jon-bon-Jono/IMU-Sensor-Calibration/main/calibration_data/mag/freehand_battery_1/freehand_battery_1_YZ.png)  | ![](https://raw.githubusercontent.com/Jon-bon-Jono/IMU-Sensor-Calibration/main/calibration_data/mag/freehand_battery_1/freehand_battery_1_XZ.png)
 
@@ -25,16 +25,24 @@ Results after applying the max-min calibration method:
  
   `py do_calibration.py "calibration_data/mag/freehand_battery_1/freehand_battery_1.csv" 'mm' '-' 'm'`
 
-XY axis             |  YZ axis             | XZ axis             
+XY axes             |  YZ axes             | XZ axes             
 :-------------------------:|:-------------------------:|:-------------------------:
-![](https://raw.githubusercontent.com/Jon-bon-Jono/Jon-bon-Jono.github.io/main/src/images/c%2B%2B_icon.PNG)  | ![](https://raw.githubusercontent.com/Jon-bon-Jono/Jon-bon-Jono.github.io/main/src/images/jupyter_logo.PNG)  | ![](https://raw.githubusercontent.com/Jon-bon-Jono/Jon-bon-Jono.github.io/main/src/images/jupyter_logo.PNG)
+![](https://raw.githubusercontent.com/Jon-bon-Jono/IMU-Sensor-Calibration/main/calibration_data/mag/freehand_battery_1/freehand_battery_1_XY_mm.png)  | ![](https://raw.githubusercontent.com/Jon-bon-Jono/IMU-Sensor-Calibration/main/calibration_data/mag/freehand_battery_1/freehand_battery_1_YZ_mm.png)  | ![](https://raw.githubusercontent.com/Jon-bon-Jono/IMU-Sensor-Calibration/main/calibration_data/mag/freehand_battery_1/freehand_battery_1_XZ_mm.png)
 
+
+3D |
+:-------------------------:|
+![](https://raw.githubusercontent.com/Jon-bon-Jono/IMU-Sensor-Calibration/main/calibration_data/mag/freehand_battery_1/Figure_mm.png)
 
 Results after applying the ellipsoidal calibration method:
 
 
   `py do_calibration.py "calibration_data/mag/freehand_battery_1/freehand_battery_1.csv" 'e' '-' 'm'`
 
-XY axis             |  YZ axis             | XZ axis             
+XY axes             |  YZ axes             | XZ axes             
 :-------------------------:|:-------------------------:|:-------------------------:
-![](https://raw.githubusercontent.com/Jon-bon-Jono/Jon-bon-Jono.github.io/main/src/images/c%2B%2B_icon.PNG)  | ![](https://raw.githubusercontent.com/Jon-bon-Jono/Jon-bon-Jono.github.io/main/src/images/jupyter_logo.PNG)  | ![](https://raw.githubusercontent.com/Jon-bon-Jono/Jon-bon-Jono.github.io/main/src/images/jupyter_logo.PNG)
+![](https://raw.githubusercontent.com/Jon-bon-Jono/IMU-Sensor-Calibration/main/calibration_data/mag/freehand_battery_1/freehand_battery_1_XY_e.png)  | ![](https://raw.githubusercontent.com/Jon-bon-Jono/IMU-Sensor-Calibration/main/calibration_data/mag/freehand_battery_1/freehand_battery_1_YZ_e.png)  | ![](https://raw.githubusercontent.com/Jon-bon-Jono/IMU-Sensor-Calibration/main/calibration_data/mag/freehand_battery_1/freehand_battery_1_XZ_e.png)
+
+3D |
+:-------------------------:|
+![](https://raw.githubusercontent.com/Jon-bon-Jono/IMU-Sensor-Calibration/main/calibration_data/mag/freehand_battery_1/Figure_e.png)
