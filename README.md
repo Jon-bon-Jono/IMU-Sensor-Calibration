@@ -5,7 +5,6 @@ Python program to generate static calibration factors from stationary sensor rea
   `py do_calibration.py [data_file.csv] [calibration_method] [preprocessing method] [sensor]`
 <p></p>
 <ul> 
-  <li>data file can be found in: </li>
   <li>calibration methods: max-min - 'mm', ellipsoid fitting - 'e' </li>
   <li>preprocessing methods: zscore outlier - 'o', regularization - 'r', zscore then reg - 'or', none - '-' </li>
   <li>sensor type: accelerometer - 'a', magnetometer - 'm' </li>
