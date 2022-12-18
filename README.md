@@ -33,6 +33,7 @@ XY axes             |  YZ axes             | XZ axes
 :-------------------------:|
 ![](https://raw.githubusercontent.com/Jon-bon-Jono/IMU-Sensor-Calibration/main/calibration_data/mag/freehand_battery_1/Figure_mm.png)
 
+
 Results after applying the ellipsoidal calibration method:
 
 
@@ -45,3 +46,6 @@ XY axes             |  YZ axes             | XZ axes
 3D |
 :-------------------------:|
 ![](https://raw.githubusercontent.com/Jon-bon-Jono/IMU-Sensor-Calibration/main/calibration_data/mag/freehand_battery_1/Figure_e.png)
+
+
+The green circles show the least squares circle fit around the calibrated samples in 2D. The green ellipsoid shows the least squares ellipsoid fit around the calibrated samples in 3D. We can see that the max-min method fails to properly calibrate the magnetometer and the ellipsoid method succeeds.
