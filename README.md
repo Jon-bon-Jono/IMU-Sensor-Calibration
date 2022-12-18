@@ -11,7 +11,7 @@ Python program to generate static calibration factors from stationary sensor rea
 </ul>
 
 ## Key Results:
-Unlike the max-min calibration method, the ellipsoid fitting method is able to properly calibrate a magnetometer when exposed to hard iron ferromagnetic interference from a battery. For the most accurate results using the ellipsoid fitting method, we requires atleast 10 well spread samples accross the 3 rotational axes (since we are fitting an ellipsoid with a full set of 10 coefficients). This implies that magnetometer calibration can be performed continuously whilst the IMU is running. 
+Unlike the max-min calibration method, the ellipsoid fitting method is able to properly calibrate a magnetometer when exposed to hard iron ferromagnetic interference from a battery. For optimal results using the ellipsoid fitting method, we require atleast 10 well spread samples accross the 3 rotational axes (since we are fitting an ellipsoid with a full set of 10 coefficients). This implies that magnetometer calibration can be performed continuously whilst the IMU is running. 
 
 Samples obtained by rotating a LSM9DS1 magnetometer while exposed to ferromagnetic interferrence from a portable battery pack:
 
